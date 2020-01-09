@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ title }}</title>
+    {% ogImage title, tagline %}
+  </head>
+  <body>
+    <header>
+      <span>Auto-Generated Social Sharing Images in Eleventy</span>
+      <a href="/">Blog</a>
+    </header>
+    <h1>{{ title }}</h1>
+    {{ content }}
+    <footer>
+      <p>
+        View source and check the
+        <code>&lt;meta property="og:image"/&gt;</code> tag to see the generated
+        social images.
+      </p>
+      <p>
+        <a href="https://github.com/jlengstorf/get-share-image-eleventy-example"
+          >see the source code</a
+        >
+        ·
+        <a href="https://www.npmjs.com/package/@jlengstorf/get-share-image"
+          >get the share image generation package</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

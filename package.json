@@ -1,0 +1,14 @@
+{
+  "name": "get-social-image-11ty",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@jlengstorf/get-share-image": "^0.2.1"
+  },
+  "scripts": {
+    "build": "eleventy"
+  }
+}
